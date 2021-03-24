@@ -43,5 +43,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::resource('emprendimiento', 'App\Http\Controllers\EmprendimientoController')->middleware('auth');
 
+Route::resource('tipoempresas', 'App\Http\Controllers\TipoEmpresaController')->middleware('auth');
+
+Route::resource('localidades', 'App\Http\Controllers\LocalidadController')->middleware('auth');
 

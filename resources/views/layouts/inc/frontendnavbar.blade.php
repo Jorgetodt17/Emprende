@@ -9,21 +9,22 @@
           <ul class="navbar-nav d-flex flex-row mr-auto" >
         <!-- Icons -->
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Pagina Principal</a>
               </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Capacitaciones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" id=""  aria-expanded="false">
+            <a class="nav-link" href="/emprendimiento" id=""  aria-expanded="false">
               Emprendimientos
             </a>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id=""  aria-expanded="false">
-                  Artículos
-                </a>
+            </li>
 
-          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/emprendimiento" id=""  aria-expanded="false">
+              Articulos
+            </a>
+            </li>
+
+{{--            </li>
           <li class="nav-item me-3 me-lg-0">
             <a class="nav-link" href="#">
               <i class="fab fa-facebook"></i>
@@ -51,7 +52,7 @@
             <i class="fas fa-shopping-cart"></i>
           </a>
         </li>
-      </ul>
+  --}}      </ul>
 
       <!-- Right Side Of Navbar -->
       <ul class="navbar-nav ml-auto">
@@ -59,13 +60,13 @@
         @guest
             @if (Route::has('login'))
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="nav-link" href="{{ route('login') }}">{{ __('Ingresar') }}</a>
                 </li>
             @endif
 
             @if (Route::has('register'))
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
                 </li>
             @endif
         @else
@@ -78,9 +79,12 @@
                     <a class="dropdown-item" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
                                      document.getElementById('logout-form').submit();">
-                        {{ __('Logout') }}
+                        {{ __('Desloguearse') }}
                     </a>
 
+                    <a class="dropdown-item" href="/emprendimiento">Mis emprendimientos
+                    </a>
+                  
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                         @csrf
                     </form>

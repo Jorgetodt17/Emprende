@@ -30,13 +30,13 @@
       ></a>
 
       <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Jorgetodt17/Emprende.git" role="button"
         ><i class="fab fa-github"></i
       ></a>
     </section>
     <!-- Section: Social media -->
 
-    <!-- Section: Form -->
+    {{--  <!-- Section: Form -->
     <section class="">
       <form action="">
         <!--Grid row-->
@@ -72,8 +72,8 @@
       </form>
     </section>
     <!-- Section: Form -->
-
-    <!-- Section: Text -->
+  --}}
+    {{--  <!-- Section: Text -->
     <section class="mb-4">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
@@ -81,9 +81,9 @@
         eum harum corrupti dicta, aliquam sequi voluptate quas.
       </p>
     </section>
-    <!-- Section: Text -->
+    <!-- Section: Text -->  --}}
 
-    <!-- Section: Links -->
+   {{--   <!-- Section: Links -->
     <section class="">
       <!--Grid row-->
       <div class="row">
@@ -175,12 +175,17 @@
     </section>
     <!-- Section: Links -->
   </div>
-  <!-- Grid container -->
+  <!-- Grid container -->  --}}
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+    Conocenos
+    {{--  © 2021 Copyright  --}}
+    {{--  <a class="text-white" href="https://mdbootstrap.com/"></a>  --}}
+  </div>
+  <!-- Copyright -->
+  <div class="btn btn-outline-light btn-floating m-1" role="button">
+    <a style = "{color:white} :hover {color:black}" href="http://www.rimaweb.com.ar/recursos/recursos-ante-violencias/misiones/">Ayuda a las mujeres</a>
   </div>
   <!-- Copyright -->
 </footer>
