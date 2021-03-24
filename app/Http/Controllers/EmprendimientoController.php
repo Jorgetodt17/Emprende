@@ -56,7 +56,11 @@ class EmprendimientoController extends Controller
         $emprendimientos->instagram = $request->get('instagram');
         $emprendimientos->facebook = $request->get('facebook');
         $emprendimientos->nro_telefono = $request->get('nro_telefono');
-        $emprendimientos->logo= $request->get('logo');
+        //$emprendimientos->logo= $request->get('logo');
+        if($request->hasFile('logo')){
+            $emprendimientos['logo']=$request->file('logo')->store('uploads','public');
+        }
+  
 
         $emprendimientos->usuario_id = Auth::id();
         $emprendimientos->tipoempresa_id = $request->get('tipoempresa_id');
@@ -67,6 +71,7 @@ class EmprendimientoController extends Controller
 
         $Mensaje=["required"=>'El campo :attribute es requerido'];
 
+       
 
 
         return redirect('/emprendimiento')->with('Mensaje','Emprendimiento agregado con éxito');
@@ -117,14 +122,17 @@ class EmprendimientoController extends Controller
         $emprendimiento->instagram = $request->get('instagram');
         $emprendimiento->facebook = $request->get('facebook');
         $emprendimiento->nro_telefono = $request->get('nro_telefono');
-        $emprendimiento->logo= $request->get('logo');
-            //    $emprendimiento->usuario_id = auth()->user()->id;
+        //$emprendimiento->logo= $request->get('logo');
+        if($request->hasFile('logo')){
+            $emprendimientos['logo']=$request->file('logo')->store('uploads','public');
+        }
+       // $emprendimiento->usuario_id = auth()->user()->id;
         $emprendimiento->tipoempresa_id = $request->get('tipoempresa_id');
-        //$emprendimientos->latitud = $request->get('latitud');
-        //$emprendimientos->longitud = $request->get('longitud');
+        $emprendimiento->latitud = $request->get('latitud');
+        $emprendimiento->longitud = $request->get('longitud');
         $emprendimiento->save();
 
-        return redirect('/emprendimiento');
+        return redirect('/emprendimiento')->with('Mensaje','Emprendimiento actualizado con éxito');
     }
 
     /**

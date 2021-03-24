@@ -15,7 +15,7 @@
  <link rel="stylesheet" href="{{asset('css/create.css')}}">
        </head>
 <h2>Editar Emprendimiento</h2>
-<form id="Form" action="/emprendimientos/{{$emprendimiento->id}}" method="POST" enctype="multipart/form-data">
+<form id="Form" action="/emprendimiento/{{$emprendimiento->id}}" method="POST" enctype="multipart/form-data">
     @csrf
     @method('PUT')
   <div class="mb-3">
@@ -62,7 +62,8 @@
     <label for="" class="form-label">Teléfono</label>
     <input id="nro_telefono" name="nro_telefono" type="text"  class="form-control" value="{{$emprendimiento->nro_telefono}}">
   </div>
-  <div class="mb-3">
+  
+    <div class="mb-3">
     {{-- <img src="{{ "data:image/" .emprendimiento::('id')->imageType. ";base64," .base64_encode( $emprendimiento->logo ) }}"> --}}
     <label for="" class="form-label">Logo</label>
     <input  id="image" tabindex="5" value="{{$emprendimiento->image}}" type="file"

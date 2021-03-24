@@ -44,7 +44,8 @@
                           <td>{{$emprendimiento->instagram}}</td>
                           <td>{{$emprendimiento->facebook}}</td>
                           <td>{{$emprendimiento->nro_telefono}}</td>
-                          <td><img src="images/{{$emprendimiento->logo}}" weigt="40" alt=""></td>
+                          <td><img src="{{ asset('storage').'/'. $emprendimiento->logo}}" alt="" width="200">
+                          </td>
                           <td>{{$emprendimiento->tipoempresa_id}}</td>
                           <td>
                           <form action="{{ route('emprendimiento.destroy',$emprendimiento->id) }}" method="POST">
