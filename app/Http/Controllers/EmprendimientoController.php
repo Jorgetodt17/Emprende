@@ -146,6 +146,6 @@ class EmprendimientoController extends Controller
         $emprendimiento = Emprendimiento::find($id);
         $emprendimiento->delete();
 
-        return redirect('/emprendimiento');
+        return redirect('emprendimiento')->with('Mensaje','Emprendimiento eliminado');
     }
 }

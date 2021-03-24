@@ -26,7 +26,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="assets/images/gallery/arrival9.png" alt="..."></a>
+                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival9.png" alt="..."></a>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -87,7 +87,7 @@
                              <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="assets/images/gallery/arrival10.png" alt="..."></a>
+                                    <div class="badge text-white badge-"></div><a class="d-block"><img class="img-fluid w-100" src="assets/images/gallery/arrival10.png" alt="..."></a>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -141,7 +141,64 @@
                                 </div>
                               </div>
 
+                              <!-- PRODUCT 3 -->
+                            <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="product text-center">
+                                  <div class="position-relative mb-3">
+                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival11.png" alt="..."></a>
+                                    <div class="product-overlay">
+                                      <ul class="mb-0 list-inline">
+                                      </br>
 
+                                      <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal3">
+                                          Contactame
+                                        </button>
+
+                                        <!-- Modal 3 -->
+                                        <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="Modal3" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="Modal1">Veronica Hermann</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                                              </svg> veronicaHermann@gmail.com
+                                              </br>
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                              </svg>(03751) 15569341
+                                              </br>
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                              </svg>Montecarlo
+                                              </br>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
+
+                                        {{--  <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>  --}}
+                                        {{--  <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Contactame</a></li>  --}}
+                                        {{--  <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>  --}}
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <h6> <div class="reset-anchor" style = "color:black;" href="detail.html"></div></h6>
+                                 {{--   <p class="small text-muted">$250</p>  --}}
+                                </div>
+                              </div>
 
 
 
@@ -194,57 +251,6 @@
                                   </div>
                                   <h6> <a class="reset-anchor" href="detail.html">Timex Unisex Originals</a></h6>
                                   <p class="small text-muted">$351</p>
-                                </div>
-                              </div>
-                              <!-- PRODUCT-->
-                              <div class="col-xl-3 col-lg-4 col-sm-6">
-                                <div class="product text-center">
-                                  <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-primary">Sale</div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="assets/images/gallery/arrival2.png" alt="..."></a>
-                                    <div class="product-overlay">
-                                      <ul class="mb-0 list-inline">
-                                        <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                        <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Add to cart</a></li>
-                                        <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <h6> <a class="reset-anchor" href="detail.html">Air Jordan 12 gym red</a></h6>
-                                  <p class="small text-muted">$300</p>
-                                </div>
-                              </div>
-                              <!-- PRODUCT-->
-                              <div class="col-xl-3 col-lg-4 col-sm-6">
-                                <div class="product text-center">
-                                  <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-primary">Sale</div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="assets/images/gallery/arrival2.png" alt="..."></a>
-                                    <div class="product-overlay">
-                                      <ul class="mb-0 list-inline">
-                                        <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                        <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Add to cart</a></li>
-                                        <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <h6> <a class="reset-anchor" href="detail.html">Air Jordan 12 gym red</a></h6>
-                                  <p class="small text-muted">$300</p>
-                                </div>
-                              </div>
-                              <!-- PRODUCT-->
-                              <div class="col-xl-3 col-lg-4 col-sm-6">
-                                <div class="product text-center">
-                                  <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-primary">Sale</div><a class="d-block" href="detail.html"><img class="img-fluid w-100" src="assets/images/gallery/arrival2.png" alt="..."></a>
-                                    <div class="product-overlay">
-                                      <ul class="mb-0 list-inline">
-                                        <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="far fa-heart"></i></a></li>
-                                        <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html">Add to cart</a></li>
-                                        <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fas fa-expand"></i></a></li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                  <h6> <a class="reset-anchor" href="detail.html">Air Jordan 12 gym red</a></h6>
-                                  <p class="small text-muted">$300</p>
                                 </div>
                               </div>
                               <!-- PRODUCT-->
