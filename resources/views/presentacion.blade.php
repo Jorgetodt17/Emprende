@@ -45,6 +45,8 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/">Proyecto</a>
             </div>
         </header>
+
+       
 <!------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------->
 <!-- --------------PRESENTACION DEL PROYECTO------------------------------------------------------------------->
@@ -52,13 +54,9 @@
 <!------------------------------------------------------------------------------------------------------------->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
-                <!--<div class="row">
-                    <div class="col-lg-10 col-sm-12 mb-10 presentacion "  >
-                        <div >
-                   
-                        </div>
-                    </div>-->
-
+            <br>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-xl-6 presentacion-image">
                 </div>
@@ -84,75 +82,105 @@
                     <h2 class="section-heading text-uppercase">NOSOTROS</h2>
                     <h3 class="section-subheading text-muted">Creadores del proyecto</h3>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="row alineacion">
+                    <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content nosotros">texto</div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                    </svg></i>
+                                </div>
+                            </div>
+                            <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover nosotros position-modal  ">
+                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
                                 </div>
                                 <img class="img-fluid" src="" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
+                                <div class="portfolio-caption-heading nombre">Bianca Olsson</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">Descripción</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">linkedin</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                    </svg></i>
+                                </div>
+                            </div>
+                            <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover nosotros position-modal  ">
+                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
                                 </div>
                                 <img class="img-fluid" src="" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
+                                <div class="portfolio-caption-heading nombre">Bárbara Davel</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">Descripción</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">linkedin</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                    </svg></i>
+                                </div>
+                            </div>
+                            <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover nosotros position-modal  ">
+                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
                                 </div>
                                 <img class="img-fluid" src="" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
+                                <div class="portfolio-caption-heading nombre">Silvina Zabinski</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">Descripción</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">linkedin</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                    </svg></i>
+                                </div>
+                            </div>
+                            <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover nosotros position-modal  ">
+                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
                                 </div>
                                 <img class="img-fluid" src="" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
-                            </div>
+                                <div class="portfolio-caption-heading nombre">Santiago Rivero</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">Descripción</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion ">linkedin</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                    </svg></i>
+                                </div>
+                            </div>
+                            <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover nosotros position-modal  ">
+                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
                                 </div>
                                 <img class="img-fluid" src="" alt="" />
                             </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
+                                <div class="portfolio-caption-heading nombre">Jorge Todt</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">Descripción</div>
+                                <div class="portfolio-caption-subheading text-muted descripcion">linkedin</div>
                         </div>
                     </div>
                     
