@@ -18,27 +18,27 @@
                   <table id="emprendimiento" class="table table-striped table-bordered shadow-lg mt-4" style="width:100%">
                     <thead class="bg-secondary text-white" >
                       <tr>
-                        <th scope="col">ID</th>
+                       
                         <th scope="col">Nombre</th>
                         <th scope="col">Descripción</th>
-                        <th scope="col">Localidad</th>
+                       
                         <th scope="col">Dirección</th>
                         <th scope="col">Sitio Web</th>
                         <th scope="col">Instagram</th>
                         <th scope="col">Facebook</th>
                         <th scope="col">Teléfono</th>
                         <th scope="col">Logo</th>
-                        <th scope="col">Tipo de Empresa</th>
+                        
                         <th scope="col">Acciones</th>
                       </tr>
                     </thead>
                     <tbody>
                       @foreach ($emprendimientos as $emprendimiento)
                       <tr>
-                          <td>{{$emprendimiento->id}}</td>
+                         
                           <td>{{$emprendimiento->nombre}}</td>
                           <td>{{$emprendimiento->descripcion}}</td>
-                          <td>{{$emprendimiento->localidad_id}}</td>
+                         
                           <td>{{$emprendimiento->direccion}}</td>
                           <td>{{$emprendimiento->sitio_web}}</td>
                           <td>{{$emprendimiento->instagram}}</td>
@@ -46,7 +46,7 @@
                           <td>{{$emprendimiento->nro_telefono}}</td>
                           <td><img src="{{ asset('storage').'/'. $emprendimiento->logo}}" alt="" width="200">
                           </td>
-                          <td>{{$emprendimiento->tipoempresa_id}}</td>
+                         
                           <td>
                           <a class="btn btn-secondary" href="{{ url('/emprendimiento/'.$emprendimiento->id. '/edit' ) }}">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">

@@ -7,8 +7,7 @@ use App\Models\TipoEmpresa;
 use Illuminate\Http\Request;
 use App\Models\Localidad;
 use League\CommonMark\Inline\Element\Image;
-
-
+use Illuminate\Support\Facades\Storage;
 
 class EmprendimientoController extends Controller
 {
@@ -64,7 +63,6 @@ class EmprendimientoController extends Controller
         if($request->hasFile('logo')){
             $emprendimientos['logo']=$request->file('logo')->store('uploads','public');
         }
-  
 
         $emprendimientos->usuario_id = Auth::id();
         $emprendimientos->tipoempresa_id = $request->get('tipoempresa_id');
@@ -72,12 +70,6 @@ class EmprendimientoController extends Controller
         $emprendimientos->longitud = $request->get('longitud');
         $emprendimientos->save();
         
-
-        
-
-       
-
-
         return redirect('/emprendimiento')->with('Mensaje','Emprendimiento agregado con éxito');
 
     }
@@ -127,15 +119,23 @@ class EmprendimientoController extends Controller
         $emprendimiento->facebook = $request->get('facebook');
         $emprendimiento->nro_telefono = $request->get('nro_telefono');
         //$emprendimiento->logo= $request->get('logo');
+          
+        
         if($request->hasFile('logo')){
-            $emprendimientos['logo']=$request->file('logo')->store('uploads','public');
+            $emprendimiento=Emprendimiento::findOrFail($id);
+
+            Storage::delete('public/'.$emprendimiento->logo);   
+                        
+            $emprendimiento['logo']=$request->file('logo')->store('uploads','public');
         }
        // $emprendimiento->usuario_id = auth()->user()->id;
         $emprendimiento->tipoempresa_id = $request->get('tipoempresa_id');
         $emprendimiento->latitud = $request->get('latitud');
         $emprendimiento->longitud = $request->get('longitud');
-        $emprendimiento->save();
-
+               
+       // $emprendimiento::where('id','=',$id)->update($emprendimiento);
+        
+       $emprendimiento->save();
         return redirect('/emprendimiento')->with('Mensaje','Emprendimiento actualizado con éxito');
     }
 
