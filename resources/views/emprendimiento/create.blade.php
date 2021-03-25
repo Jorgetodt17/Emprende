@@ -101,6 +101,7 @@
           @foreach($tipoempresas as $tipoempresa)
                     <option value="{{$tipoempresa['id']}}">{{$tipoempresa['nombre']}}</option>
       @endforeach
+      
   </select>
   <div class="mb-3">
     <label for="" class="form-label">Ubicación Geográfica</label>
