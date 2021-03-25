@@ -117,7 +117,7 @@
     </div>
   </div>
 
-  <a href="/emprendimientos" class="btn btn-secondary">Cancelar</a>
+  <a href="/emprendimiento" class="btn btn-secondary">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
 

@@ -4,7 +4,7 @@
    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"> </script>
-   <!-- Make sure you put this AFTER Leaflet's CSS -->
+   
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -65,10 +65,14 @@
   
     <div class="mb-3">
     {{-- <img src="{{ "data:image/" .emprendimiento::('id')->imageType. ";base64," .base64_encode( $emprendimiento->logo ) }}"> --}}
-    <label for="" class="form-label">Logo</label>
-    <input  id="image" tabindex="5" value="{{$emprendimiento->image}}" type="file"
-           name="image"
-       accept="image/png, image/jpeg, image/gif"/>
+    <img src="{{ asset('storage').'/'. $emprendimiento->logo}}" alt="" width="200">
+    <br>
+    <label for="logo" class="form-label">Logo</label>
+    <input  id="logo" class="form-control-file" tabindex="5"  type="file"
+      {{--   class="logo"  --}}
+       name="logo"
+       accept="image/png, image/jpeg, image/gif" value="{{$emprendimiento->logo}}">
+       
   </div>
   <div class="mb-3">
   <select id="tipoempresa_id" name="tipoempresa_id"  class="form-control" value="">
@@ -94,7 +98,7 @@
       <label for="" class="form-label">Longitud</label>
       <input id="longitud" name="longitud" type="text" value="{{$emprendimiento->longitud}}" class="form-control">
     </div>
-  <a href="/emprendimientos" class="btn btn-secondary">Cancelar</a>
+  <a href="/emprendimiento" class="btn btn-secondary">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
 <script type="text/javascript" src="{{asset('js/maped.js')}}"></script>
