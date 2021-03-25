@@ -179,7 +179,9 @@
 
   <!-- Copyright -->
   <div class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-    Conocenos
+      <a style = "{color:white} :hover {color:black}" href="presentacion">Conocenos</a>
+
+    
     {{--  © 2021 Copyright  --}}
     {{--  <a class="text-white" href="https://mdbootstrap.com/"></a>  --}}
   </div>

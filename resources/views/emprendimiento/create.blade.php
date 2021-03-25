@@ -20,46 +20,69 @@
 
    </head>
    <h2>Crear Emprendimiento</h2>
-      <form id="Form" action="/emprendimiento" method="POST" enctype="multipart/form-data">
+   
+   {{--  @if(count($errors)>0)
+
+ <ul>   
+    @foreach ($errors->all() as $error)
+
+        <li> {{ $error }} </li>
+      
+    @endforeach
+    
+</ul>
+
+@endif  --}}
+      <form id="Form" action="/emprendimiento" method="POST" enctype="multipart/form-data" class = "needs-validation" novalidate>
     @csrf
 
   <div class="mb-3">
     <label for="" class="form-label">Nombre</label>
-    <input id="nombre" name="nombre" type="text" class="form-control">
+    <input id="nombre" name="nombre" type="text" class="form-control" required>
+    <div class = "valid-feedback">¡Campo completado!</div>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
+  
   <div class="mb-3">
     <label for="" class="form-label">Descripción</label>
-    <input id="descripcion" name="descripcion" type="text" class="form-control" >
+    <input id="descripcion" name="descripcion" type="text" class="form-control" required>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Localidad</label>
 
-    <select id="localidad_id" name="localidad_id"  class="form-control">
+    <select id="localidad_id" name="localidad_id"  class="form-control" required>
         <option value="">Seleccione una Localidad</option>
             @foreach($localidads as $localidad)
             <option value="{{$localidad['id']}}">{{$localidad['nombre']}}</option>
         @endforeach
     </select>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Dirección</label>
-    <input id="direccion" name="direccion" type="text"  class="form-control" >
+    <input id="direccion" name="direccion" type="text"  class="form-control" required>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Sitio Web</label>
-    <input id="sitio_web" name="sitio_web" type="text"  class="form-control" >
+    <input id="sitio_web" name="sitio_web" type="text"  class="form-control" required>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Instagram</label>
-    <input id="instagram" name="instagram" type="text"  class="form-control" >
+    <input id="instagram" name="instagram" type="text"  class="form-control" required>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Facebook</label>
-    <input id="facebook" name="facebook" type="text"  class="form-control">
+    <input id="facebook" name="facebook" type="text"  class="form-control" required>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <label for="" class="form-label">Teléfono</label>
-    <input id="nro_telefono" name="nro_telefono" type="text"  class="form-control" >
+    <input id="nro_telefono" name="nro_telefono" type="text"  class="form-control" required>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
 
@@ -67,12 +90,13 @@
     <input  id="logo" class="form-control-file" tabindex="5"  type="file"
       {{--   class="logo"  --}}
        name="logo"
-       accept="image/png, image/jpeg, image/gif"/>
+       accept="image/png, image/jpeg, image/gif">
+       <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
 
   <div class="mb-3">
   <label for="" class="form-label">Tipo de Empresa</label>
-  <select id="tipoempresa_id" name="tipoempresa_id"  class="form-control">
+  <select id="tipoempresa_id" name="tipoempresa_id"  class="form-control" required>
       <option value="">Seleccione un tipo de Empresa</option>
           @foreach($tipoempresas as $tipoempresa)
                     <option value="{{$tipoempresa['id']}}">{{$tipoempresa['nombre']}}</option>
@@ -81,20 +105,22 @@
   <div class="mb-3">
     <label for="" class="form-label">Ubicación Geográfica</label>
     <div id="map" style="height:350px;"></div>
+    <div class = "invalid-feedback">Campo obligatorio.</div>
   </div>
   <div class="mb-3">
     <div class="mb-3">
       <label for="" class="form-label">Latitud</label>
-      <input id="latitud" name="latitud" type="text"  class="form-control">
+      <input id="latitud" name="latitud" type="text"  class="form-control" required>
       <br>
       <label for="" class="form-label">Longitud</label>
-      <input id="longitud" name="longitud" type="text"  class="form-control">
+      <input id="longitud" name="longitud" type="text"  class="form-control" required>
     </div>
   </div>
 
   <a href="/emprendimientos" class="btn btn-secondary">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
+
 
 <script type="text/javascript" src="{{asset('js/map.js')}}"></script>
 @endsection
