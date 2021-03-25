@@ -46,6 +46,10 @@ class EmprendimientoController extends Controller
     public function store(Request $request)
     {
 
+        /* $this->validate($request, ['nombre'=>'required', 'descripcion'=>'required', 
+        'localidad_id'=>'required', 'direccion'=>'required', 'nro_telefono'=>'required']); */
+
+        $Mensaje=['required'=>'El campo :attribute es requerido'];
 
         $emprendimientos = new Emprendimiento();
         $emprendimientos->nombre = $request->get('nombre');
@@ -69,7 +73,7 @@ class EmprendimientoController extends Controller
         $emprendimientos->save();
         
 
-        $Mensaje=["required"=>'El campo :attribute es requerido'];
+        
 
        
 
