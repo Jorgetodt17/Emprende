@@ -187,7 +187,7 @@
   </div>
   <!-- Copyright -->
   <div class="btn btn-outline-light btn-floating m-1" role="button">
-    <a style = "{color:white} :hover {color:black}" href="http://www.rimaweb.com.ar/recursos/recursos-ante-violencias/misiones/">Ayuda a las mujeres</a>
+    <a style = "{color:white} :hover {color:black}" href="http://www.rimaweb.com.ar/recursos/recursos-ante-violencias/misiones/">Voz de mujer</a>
   </div>
   <!-- Copyright -->
 </footer>

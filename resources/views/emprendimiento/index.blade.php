@@ -63,6 +63,7 @@
                           </form>
                           </td>
                       </tr>
+                      
                       @endforeach
 
 
@@ -72,7 +73,9 @@
                </div>
             </div>
 
-  @section('js')
+
+
+   @section('js')
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
@@ -98,8 +101,9 @@
 
   </script>
 
-    @endsection
   @endsection
+@endsection
+
 
 
   
