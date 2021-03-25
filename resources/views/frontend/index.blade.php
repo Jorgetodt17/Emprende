@@ -29,7 +29,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival9.png" alt="..." ></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival9.png" alt="..." ></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -98,7 +98,7 @@
                              <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block"><img class="img-fluid w-100" src="assets/images/gallery/arrival10.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival10.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -163,7 +163,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival11.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival11.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -230,7 +230,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival12.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival12.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -295,7 +295,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival13.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival13.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -360,7 +360,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival14.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival14.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -425,7 +425,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival15.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival15.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
@@ -490,7 +490,7 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6">
                                 <div class="product text-center">
                                   <div class="position-relative mb-3">
-                                    <div class="badge text-white badge-"></div><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival16.png" alt="..."></a>
+                                    <div class="badge text-white badge- img-alineado"><a class="d-block" ><img class="img-fluid w-100" src="assets/images/gallery/arrival16.png" alt="..."></a></div>
                                     <div class="product-overlay">
                                       <ul class="mb-0 list-inline">
                                       </br>
