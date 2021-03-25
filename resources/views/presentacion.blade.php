@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href= "{{ asset('css\presentacion.css') }}" rel="stylesheet" />
-        <link href= "{{ asset('css\presentacion-style.css') }}" rel="stylesheet" />
+       
     </head>
     <body id="page-top">
         <!-- Navigation-
@@ -45,6 +45,33 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Proyecto</a>
             </div>
         </header>
+<!------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------->
+<!-- --------------PRESENTACION DEL PROYECTO------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <!--<div class="row">
+                    <div class="col-lg-10 col-sm-12 mb-10 presentacion "  >
+                        <div >
+                   
+                        </div>
+                    </div>-->
+
+            <div class="row">
+                <div class="col-xl-6 presentacion-image">
+                </div>
+                <div class="col-xl-6 presentacion text-center">
+                    <br>
+                    <br>
+                    <h2 class="section-heading text-uppercase">¿QUÉ ES IMPULSA?</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+                    
+            </div>
+        </section> 
     
 <!------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------->
@@ -54,15 +81,15 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">NOSOTROS</h2>
+                    <h3 class="section-subheading text-muted">Creadores del proyecto</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    <div class="portfolio-hover-content nosotros">texto</div>
                                 </div>
                                 <img class="img-fluid" src="" alt="" />
                             </a>
