@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white mt-auto py-3">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->

@@ -1,4 +1,4 @@
-<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light shadow-lg mi-navbar">
     <div class="container-fluid ">
         <a class="navbar-brand" href="#"><img src="{{asset('assets/images/Navbar imagen.png')}}" width="20" height="20" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
               </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/emprendimiento" id=""  aria-expanded="false">
+            <a class="nav-link" href="#emprende" id=""  aria-expanded="false">
               Emprendimientos
             </a>
             </li>
