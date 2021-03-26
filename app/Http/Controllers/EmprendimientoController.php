@@ -18,9 +18,12 @@ class EmprendimientoController extends Controller
      */
     public function index()
     {
+        $authUser = auth()->user();
+        $empredimientos = $authUser->emprendimientos;
+        return view('emprendimiento.index')->with('emprendimientos',$empredimientos);
         //return 'Vista index()';
-        $emprendimientos = Emprendimiento::all();
-        return view('emprendimiento.index')->with('emprendimientos',$emprendimientos);
+       // $emprendimientos = Emprendimiento::all();
+       
     }
 
     /**
