@@ -8,9 +8,9 @@
 
             @include('frontend.slider.slider')
 
-                <section id="emprende">
+                <section>
 
-                    <div class="container">
+                    <div class="container" id="emprende">
                         <div class="row justify-content-center">
                             <div class="row justify-content-center">
                                 <div class="col-xl-7 col-lg-8 col-md-10">
@@ -21,8 +21,6 @@
                             </div>
                         </div>
                         <div class="row">
-
-                        <div style = "height: 70px;"></div>
 
                         <!-- PRODUCT 1 -->
                             <div class="col-xl-3 col-lg-4 col-sm-6">

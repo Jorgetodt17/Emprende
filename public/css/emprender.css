@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .img-alineado {
     height: 255px;
     display: flex;
