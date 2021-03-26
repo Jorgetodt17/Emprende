@@ -3,6 +3,8 @@
 @section('css')
 @endsection
 @section('contenido')
+
+
 <head>
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"/>
@@ -11,8 +13,20 @@
 
 </head>
 <p class="mis-titulos">Mis emprendimientos</p>
-  <a href="emprendimiento/create" class="btn btn-secondary ">Crear</a>
-  <br>
+  <a href="emprendimiento/create" class="btn btn-secondary">Crear</a>
+  </br>
+  </br>
+  @if(Session::has('Mensaje'))
+
+<div class="alert alert-success alert-dismissable" role="alert">
+<button type="button" class="close" data-dismiss="alert">&times;</button>
+{{ Session::get('Mensaje') }}
+</div>
+
+
+@endif
+
+
   <p></p>
     <div class="">
         <div class="row justify-content-center" style="overflow:hidden;">
