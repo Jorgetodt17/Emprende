@@ -60,7 +60,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-
 body {
   margin: 0;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -126,6 +125,60 @@ body {
    
 }
 
+.js{
+  background-image: url("../assets/images/logo_js.jpg");
+ 
+}
+.figma{
+  background-image: url("../assets/images/figma_logo.jpg");
+ 
+}
+.bootstrap{
+  background-image: url("../assets/images/bootstrap_logo.jpg");
+  
+}
+.laravel{
+  background-image: url("../assets/images/logo_laravel.jpg");
+  
+}
+
+.github{
+  background-image: url("../assets/images/logo_github.jpg");
+ 
+}
+.mysql{
+  background-image: url("../assets/images/logo_mysql.jpg");
+
+}
+.xampp{
+  background-image: url("../assets/images/xampp_logo.jpg");
+  
+}
+.php{
+  background-image: url("../assets/images/logo_php.jpg");
+ 
+}
+.css{
+  background-image: url("../assets/images/css_logo.jpg");
+}
+
+.html{
+ 
+  background-image: url("../assets/images/html_logo.jpg");
+}
+
+.tecnologia{
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  border-radius:100%;
+  height: 130px;
+  width: 130px;
+  box-shadow: 1px 1px 25px #d4d3d3;
+  position: relative;
+  left: 45px;
+}
 .clase{
   text-align:left;
 }
@@ -147,7 +200,13 @@ body {
   align-content: center;
   
 }
-
+ .agradecimiento{
+   background-image: url("../assets/images/fondo_impulsa.jpg")  ;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-size: cover;
+   background-position: center;
+ }
 /*-------------------------------------------------------
 -----------------------------------------------------------
 ---------------------------------------------------------

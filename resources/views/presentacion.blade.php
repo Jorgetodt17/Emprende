@@ -464,63 +464,86 @@
 <!------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------->
     <section class="page-section" id="services">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h2 class="section-heading text-uppercase">Tegnologías utilizadas</h2>
+                    <h3 class="section-subheading text-muted">Esta página fue creada utilizando:</h3>
                 </div>
+                <br>
+    
                 <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
+                    <div class="offset-md-1 col-md-2">
+                        <div class="js tecnologia"></div>
+                        <h5 class="my-3">Java Script</h5>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
+                    <div class="col-md-2">
+                        <div class="bootstrap tecnologia"></div>
+                        <h5 class="my-3">Bootstrap</h5>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
+                    <div class="col-md-2">
+                        <div class="figma tecnologia"></div>
+                        <h5 class="my-3">Figma</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="laravel tecnologia"></div>
+                        <h5 class="my-3">Laravel</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="github tecnologia "></div>
+                        <h5 class="my-3">GitHub</h5>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class=" offset-md-1 col-md-2">
+                        <div class="mysql tecnologia"></div>
+                        <h5 class="my-3">MySql</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="xampp tecnologia"></div>
+                        <h5 class="my-3">Xampp</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="php tecnologia"></div>
+                         <h5 class="my-3">PHP</h5>
+                    </div>
+                    <div class="col-md-2">
+                    <div class="html tecnologia"></div>
+                         <h5 class="my-3">HTML5</h5>
+                    </div>
+                    <div class="col-md-2">
+                     <div class="css tecnologia"></div>
+                         <h5 class="my-3 ">CSS</h5>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="page-section" id="services">
+        <br>
+        <br>
+
+        <section class="page-section agradecimiento " >
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
+                  
+                        <h2 class="section-heading text-uppercase">PROFESORES</h2>
+                        <p>¡Muchas gracias por guiarnos y acompañarnos en esta nueva etapa!</p>
+
+                        <h6>Lucas Saclier</h6>
+                        <h6>Elías Reuter</h6>
+                        <h6>Rodrigo Uberto</h6>
+                        <h6>Mailén Brandao</h6>
+                        <h6>Melisa Brandao</h6>
+                        <h6>Ezequiel Escobar</h6>
+                        <h6>Lucas Colantuono</h6>
+                        <h6>Juan Ignacio Spadoni</h6>
+                        <h6>Stack Overflow</h6>
+               
+                   
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                    </div>
-                </div>
+            
             </div>
         </section>
 <!------------------------------------------------------------------------------------------------------------->
@@ -531,35 +554,35 @@
          <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">¡Contáctanos!</h2>
+                   <br>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
+                        <div class="offset-md-1 col-md-4">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                                <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Please enter your name." />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                                <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address." />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                                <input class="form-control" id="phone" type="tel" placeholder="Telefono *" required="required" data-validation-required-message="Please enter your phone number." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" id="message" placeholder="Escriba su mensaje aquí. *" required="required" data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
