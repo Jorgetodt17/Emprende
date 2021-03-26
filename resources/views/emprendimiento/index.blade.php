@@ -22,7 +22,7 @@
                       <tr>
                        
                         <th scope="col">Nombre</th>
-                        <th scope="col">Descripción</th>
+                        {{--  <th scope="col">Descripción</th>  --}}
                        
                         <th scope="col">Dirección</th>
                         <th scope="col">Sitio Web</th>
@@ -39,7 +39,7 @@
                       <tr>
                          
                           <td>{{$emprendimiento->nombre}}</td>
-                          <td>{{$emprendimiento->descripcion}}</td>
+                          {{--  <td>{{$emprendimiento->descripcion}}</td>  --}}
                          
                           <td>{{$emprendimiento->direccion}}</td>
                           <td>{{$emprendimiento->sitio_web}}</td>
