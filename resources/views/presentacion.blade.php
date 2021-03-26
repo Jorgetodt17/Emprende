@@ -504,7 +504,7 @@
                     </div>
                     <div class="col-md-2">
                         <div class="xampp tecnologia"></div>
-                        <h5 class="my-3">Xampp</h5>
+                        <h5 class="my-3">JQuery</h5>
                     </div>
                     <div class="col-md-2">
                         <div class="php tecnologia"></div>
@@ -595,12 +595,8 @@
          <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © 2021</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <div class=" text-lg-center">Copyright © 2021</div>
+                    
                 </div>
             </div>
         </footer>
