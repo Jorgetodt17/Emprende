@@ -18,11 +18,11 @@
             </a>
             </li>
 
-            <li class="nav-item">
+            {{--  <li class="nav-item">
             <a class="nav-link" href="/emprendimiento" id=""  aria-expanded="false">
               Articulos
             </a>
-            </li>
+            </li>  --}}
 
 {{--            </li>
           <li class="nav-item me-3 me-lg-0">
