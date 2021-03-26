@@ -10,13 +10,14 @@
 
 
 </head>
-<a href="emprendimiento/create" class="btn btn-secondary ">Crear</a>
-<br>
-<p></p>
-    <div class="container">
-        <div class="row">
+<p class="mis-titulos">Mis emprendimientos</p>
+  <a href="emprendimiento/create" class="btn btn-secondary ">Crear</a>
+  <br>
+  <p></p>
+    <div class="">
+        <div class="row justify-content-center" style="overflow:hidden;">
           <div class = "col">
-                  <table id="emprendimiento" class="table table-striped table-bordered shadow-lg mt-4" style="width:100%">
+                  <table id="emprendimiento" class="table table-striped table-bordered shadow-lg mt-4">
                     <thead class="bg-secondary text-white" >
                       <tr>
                        
@@ -73,7 +74,6 @@
                   </div>
                </div>
             </div>
-
 
 
    @section('js')

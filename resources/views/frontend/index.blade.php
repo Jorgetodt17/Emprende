@@ -8,15 +8,14 @@
 
             @include('frontend.slider.slider')
 
-                <section>
+                <section id="emprende">
 
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="row justify-content-center">
                                 <div class="col-xl-7 col-lg-8 col-md-10">
                                     <div class="section-tittle mb-60 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                                       <div style = "height: 30px;"></div>
-                                        <h2> Emprendimientos</h2>
+                                        <p class="mis-titulos"> Emprendimientos</p>
                                     </div>
                                 </div>
                             </div>
