@@ -1,14 +1,13 @@
 @extends('layouts.plantillabaseemp')
 
-@section('css')
-@endsection
+
 @section('contenido')
 
 
 <head>
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"/>
-    <link rel="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css"/>
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css"/>
 
 
 </head>
@@ -90,7 +89,7 @@
             </div>
 
 
-   @section('js')
+   
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
@@ -102,7 +101,7 @@
 
 
   <script>
-       $(document).ready(function() {
+      
     $('#emprendimiento').DataTable( {
         dom: 'Bfrtip',
         buttons: [
@@ -111,12 +110,12 @@
             'csvHtml5',
             'pdfHtml5'
         ]
-    } );
+    
 } );
 
   </script>
 
-  @endsection
+  
 @endsection
 
 
