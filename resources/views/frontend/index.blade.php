@@ -34,11 +34,13 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                   </div>
-                  <div class="card-footer">
+                
                       <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal1">
                                           Contactame
                       </button>
-                  </div>
+                
+                      
+                 <br>
                 </div>
               </div>
     
@@ -90,11 +92,13 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
                   </div>
-                  <div class="card-footer">
+                  
                     <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal2">
                                           Contactame
                     </button>
-                  </div>
+                    <br>
+                 
+                  
                 </div>
               </div>
            <!-- Modal 2 -->
@@ -143,12 +147,13 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                   </div>
-                  <div class="card-footer">
+                  
                     <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal3">
                       Contactame
                     </button>
 
-                  </div>
+                    
+                 <br>
                 </div>
               </div>
               <!-- Modal 3 -->
@@ -200,11 +205,12 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                   </div>
-                  <div class="card-footer">
+                  
                     <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal4">
                           Contactame
                   </button>     
-                  </div>
+                  <br>
+                 
                 </div>
               </div>
               <!-- Modal 4 -->
@@ -253,13 +259,12 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
                   </div>
-                  <div class="card-footer">
                        <!-- Button trigger modal -->
                        <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal5">
                                           Contactame
                       </button>
-
-                  </div>
+                      <br>
+                
                 </div>
               </div>
               
@@ -309,12 +314,13 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                   </div>
-                  <div class="card-footer">
+           
                     <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal6">
                                           Contactame
                     </button>
 
-                  </div>
+                    <br>
+                 
               </div>
           </div>
 
@@ -365,12 +371,11 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                   </div>
-                  <div class="card-footer">
                         <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal7">
                                           Contactame
                         </button>
-
-                  </div>
+                        <br>
+                
                 </div>
               </div>
 
@@ -420,11 +425,12 @@
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
                   </div>
-                  <div class="card-footer">
+               
                     <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal8">
                                           Contactame
                                         </button>
-                  </div>
+                                        <br>
+                 
                 </div>
               </div>
               <!-- Modal 8 -->
@@ -471,10 +477,10 @@
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                  </div>
-                  <div class="card-footer">
+                
+               
                     <a href="#" class="btn btn-primary text-uppercase js-scroll-trigger">Find Out More!</a>
-                  </div>
+                
               </div>
           </div>
     </div>
