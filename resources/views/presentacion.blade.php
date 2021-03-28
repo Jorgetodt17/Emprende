@@ -86,10 +86,8 @@
                     <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                    </svg></i>
+                                <div class="portfolio-caption-heading bianca nosotros">
+                                   
                                 </div>
                             </div>
                             <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal1">
@@ -108,10 +106,8 @@
                     <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                    </svg></i>
+                                <div class="portfolio-caption-heading barbi nosotros">
+                                   
                                 </div>
                             </div>
                             <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal2">
@@ -130,10 +126,7 @@
                     <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                    </svg></i>
+                                <div class="portfolio-caption-heading silvi nosotros">
                                 </div>
                             </div>
                             <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal3">
@@ -174,10 +167,7 @@
                     <div class="col-lg-2 col-sm-4 mb-2">
                         <div class="portfolio-item">
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading  nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                    </svg></i>
+                                <div class="portfolio-caption-heading jorge  nosotros">
                                 </div>
                             </div>
                             <a class="portfolio-link  " data-toggle="modal" href="#portfolioModal5">
@@ -214,10 +204,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <div class="portfolio-caption-heading  foto nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                        </svg></i>
+                                    <div class="portfolio-caption-heading  foto bianca nosotros">
                                     </div>
                                     <br>
                                     <h4 class="name">Olsson Bianca</h4>
@@ -265,10 +252,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <div class="portfolio-caption-heading  foto nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                        </svg></i>
+                                    <div class="portfolio-caption-heading  foto barbi nosotros">
                                     </div>
                                     <br>
                                     <h4 class="name">Bárbara Davel</h4>
@@ -316,10 +300,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <div class="portfolio-caption-heading  foto nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                        </svg></i>
+                                    <div class="portfolio-caption-heading  foto silvi nosotros">
                                     </div>
                                     <br>
                                     <h4 class="name">Silvina Zabinski</h4>
@@ -418,10 +399,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <div class="portfolio-caption-heading  foto nosotros"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                                        </svg></i>
+                                    <div class="portfolio-caption-heading  foto jorge nosotros">
                                     </div>
                                     <br>
                                     <h4 class="name">Jorge Todt</h4>

@@ -96,6 +96,47 @@ body {
   background-color: white;
   box-shadow: 2px 2px 35px  #8bbe92;
 }
+.bianca{
+  background-image: url("../assets/images/biancaa.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  width: 160px;
+  border: 10px solid #282D33 ;
+}
+.barbi{
+  background-image: url("../assets/images/barbii.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  width: 160px;
+  border: 10px solid #282D33 ;
+}
+.silvi{
+  background-image: url("../assets/images/silvi.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  width: 160px;
+  border: 10px solid #282D33 ;
+}
+.jorge{
+  background-image: url("../assets/images/jorge.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  width: 160px;
+  border: 10px solid #282D33 ;
+}
 .nosotros{
   background-color:#8EDA98;
   border-radius: 100%;

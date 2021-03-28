@@ -74,7 +74,7 @@ section{
 .contenedor{
     border: 10px solid white;
     border-radius: 5%;
-    box-shadow: 1px 1px 25px  #cfd0d1;
+    box-shadow: 1px 1px 25px  #dddddd;
 }
 
 .button{
