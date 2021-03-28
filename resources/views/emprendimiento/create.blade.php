@@ -19,6 +19,7 @@
  crossorigin=""></script>
 
    </head>
+   </br>
    <h2>Crear Emprendimiento</h2>
    
    {{--  @if(count($errors)>0)
