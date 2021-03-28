@@ -97,6 +97,8 @@ class EmprendimientoController extends Controller
      */
     public function edit($id)
     {
+        $Mensaje=['required'=>'El campo :attribute es requerido'];
+
         $localidads = Localidad::all();
         $tipoempresas = TipoEmpresa::all();
         $emprendimiento = Emprendimiento::find($id);
@@ -111,7 +113,10 @@ class EmprendimientoController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
+
     {
+        $Mensaje=['required'=>'El campo :attribute es requerido'];
+
         $emprendimiento= Emprendimiento::find($id);
         $emprendimiento->nombre = $request->get('nombre');
         $emprendimiento->descripcion = $request->get('descripcion');
