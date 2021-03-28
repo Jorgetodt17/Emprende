@@ -26,6 +26,7 @@
       <section>
         <div class="container">
             <div class="row">
+            
             <!--Emprendimiento 1-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100 contenedor">
@@ -87,6 +88,7 @@
                   </div>
                 </div>
               </div>
+
           <!--Emprendimiento 2-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100 contenedor">
@@ -145,6 +147,7 @@
                   </div>
                 </div>
               </div>
+
             <!--Emprendimiento 3-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100 contenedor">
@@ -207,6 +210,7 @@
 
             </div>
             <div class="row">
+
               <!--Emprendimiento 4-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100 contenedor">
@@ -264,6 +268,7 @@
                   </div>
                 </div>
               </div>
+
               <!--Emprendimiento 5-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100  contenedor">
@@ -323,6 +328,7 @@
                 </div>
               </div>
               <div class="col-md-4 mb-5">
+
                 <!--Empredimiento 6-->
                 <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival14.png" alt="..."></a></div>
@@ -380,7 +386,9 @@
             </div>
           </div>
         </div>
+        </div>
           <div class="row">
+          
             <!--Emprendimiento 7-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100 contenedor">
@@ -438,6 +446,7 @@
                 </div>
               </div>
             </div>
+
             <!--Emprendimiento 8-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100 contenedor">
@@ -496,6 +505,7 @@
                   </div>
                 </div>
               </div>
+
               <!--Emprendimiento 9-->
               <div class="col-md-4 mb-5">
                 <div class="card h-100  contenedor">
