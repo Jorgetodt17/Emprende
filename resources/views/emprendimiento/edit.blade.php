@@ -13,8 +13,10 @@
  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
  crossorigin=""></script>
  <link rel="stylesheet" href="{{asset('css/create.css')}}">
-       </head>
-<h2>Editar Emprendimiento</h2>
+</head>
+
+<section>
+<p class="mis-titulos">Editar emprendimiento</p>
 <form id="Form" action="/emprendimiento/{{$emprendimiento->id}}" method="POST" enctype="multipart/form-data" class = "needs-validation" novalidate>
     @csrf
     @method('PUT')
@@ -123,6 +125,7 @@
   <a href="/emprendimiento" class="btn btn-secondary">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
+</section>
 <script type="text/javascript" src="{{asset('js/maped.js')}}"></script>
 
 @endsection
