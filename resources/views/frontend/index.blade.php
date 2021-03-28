@@ -386,11 +386,7 @@
             </div>
           </div>
         </div>
-<<<<<<< HEAD
-      </div>
-=======
         </div>
->>>>>>> 741fe2c3dda3d2e8386e5c110b470d2a6d185328
           <div class="row">
           
             <!--Emprendimiento 7-->
@@ -512,13 +508,8 @@
 
               <!--Emprendimiento 9-->
               <div class="col-md-4 mb-5">
-<<<<<<< HEAD
-                <div class="card h-100 contenedor">
-                  <img class="card-img-top" src="https://placehold.it/300x200" alt="">
-=======
                 <div class="card h-100  contenedor">
                 <div ><img class="img-fluid anuncios" src="assets/images/gallery/arrival18.png" alt="..."></div>
->>>>>>> 741fe2c3dda3d2e8386e5c110b470d2a6d185328
                   <div class="card-body">
                     <h4 class="card-title">Ayacucho Lavados</h4>
                    
