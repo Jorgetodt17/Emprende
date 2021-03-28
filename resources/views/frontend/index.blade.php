@@ -28,14 +28,14 @@
             <div class="row">
             <!--Emprendimiento 1-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div ><img class="img-fluid  anuncios" src="assets/images/gallery/arrival9.png" alt="..." ></a></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                   </div>
                   <div class="card-footer">
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal1">
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal1">
                                           Contactame
                       </button>
                   </div>
@@ -77,21 +77,21 @@
 
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                     </div>
                   </div>
                 </div>
               </div>
           <!--Emprendimiento 2-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div ><img class="img-fluid anuncios" src="assets/images/gallery/arrival10.png" alt="..."></a></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
                   </div>
                   <div class="card-footer">
-                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal2">
+                    <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal2">
                                           Contactame
                     </button>
                   </div>
@@ -130,21 +130,21 @@
                     </br>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                     </div>
                   </div>
                 </div>
               </div>
             <!--Emprendimiento 3-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival11.png" alt="..."></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                   </div>
                   <div class="card-footer">
-                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal3">
+                    <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal3">
                       Contactame
                     </button>
 
@@ -184,7 +184,7 @@
                     </br>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                     </div>
                   </div>
                 </div>
@@ -194,14 +194,14 @@
             <div class="row">
               <!--Emprendimiento 4-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival12.png" alt="..."></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                   </div>
                   <div class="card-footer">
-                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal4">
+                    <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal4">
                           Contactame
                   </button>     
                   </div>
@@ -240,14 +240,14 @@
                     </br>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                     </div>
                   </div>
                 </div>
               </div>
               <!--Emprendimiento 5-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100  contenedor">
                 <div ><img class="img-fluid anuncios" src="assets/images/gallery/arrival13.png" alt="..."></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
@@ -255,7 +255,7 @@
                   </div>
                   <div class="card-footer">
                        <!-- Button trigger modal -->
-                       <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal5">
+                       <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal5">
                                           Contactame
                       </button>
 
@@ -296,21 +296,21 @@
                     </br>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-5">
                 <!--Empredimiento 6-->
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival14.png" alt="..."></a></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                   </div>
                   <div class="card-footer">
-                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal6">
+                    <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal6">
                                           Contactame
                     </button>
 
@@ -351,7 +351,7 @@
               </br>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
               </div>
             </div>
           </div>
@@ -359,14 +359,14 @@
           <div class="row">
             <!--Emprendimiento 7-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival15.png" alt="..."></a></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                   </div>
                   <div class="card-footer">
-                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal7">
+                        <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal7">
                                           Contactame
                         </button>
 
@@ -407,21 +407,21 @@
                   </br>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                   </div>
                 </div>
               </div>
             </div>
             <!--Emprendimiento 8-->
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival16.png" alt="..."></a></div>
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
                   </div>
                   <div class="card-footer">
-                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Modal8">
+                    <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#Modal8">
                                           Contactame
                                         </button>
                   </div>
@@ -460,7 +460,7 @@
                     </br>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary text-uppercase js-scroll-trigger" data-dismiss="modal">Cerrar</button>
                     </div>
                   </div>
                 </div>
@@ -473,18 +473,11 @@
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                   </div>
                   <div class="card-footer">
-                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                    <a href="#" class="btn btn-primary text-uppercase js-scroll-trigger">Find Out More!</a>
                   </div>
               </div>
           </div>
     </div>
-       
-
-
-
-
-        </div>
-
       </section>
 
 

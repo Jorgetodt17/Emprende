@@ -33,6 +33,7 @@
   
 html {
     scroll-behavior: smooth;
+    background-color: white;
 }
 .img-alineado {
     height: 255px;
@@ -62,6 +63,7 @@ html {
     height: 300px;
     width: 400px;
     border-bottom:  1px solid #282D33;
+    border-radius: 5%;
 }
 section{
     padding: 6rem 0;
@@ -69,3 +71,71 @@ section{
     margin-bottom: 1rem;
   }
  
+.contenedor{
+    border: 10px solid white;
+    border-radius: 5%;
+    box-shadow: 1px 1px 25px  #cfd0d1;
+}
+
+.button{
+    background-color: var(--accent);
+ 
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+      transition: none;
+    }
+  }
+  .btn:hover {
+    color: #212529;
+    text-decoration: none;
+  }
+  .btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
+  }
+  .btn.disabled, .btn:disabled {
+    opacity: 0.65;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  a.btn.disabled,
+  fieldset:disabled a.btn {
+    pointer-events: none;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #4FDF0A;
+    border-color: #4FDF0A;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #4FDF0A;
+    border-color: #4FDF0A;
+  }
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #4FDF0A;
+    border-color: #4FDF0A;
+    box-shadow: 0 0 0 0.2rem rgba(98, 254, 84, 0.5);
+  }
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #4FDF0A;
+    border-color: #4FDF0A;
+  }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #4FDF0A;
+    border-color: #4FDF0A;
+  }
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(98, 254, 84, 0.5);
+  }
+  .btn-xl {
+    justify-content: center;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }  
