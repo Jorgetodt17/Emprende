@@ -19,8 +19,9 @@
  crossorigin=""></script>
 
    </head>
-   </br>
-   <h2>Crear Emprendimiento</h2>
+<section>
+
+  <p class="mis-titulos">Crear Emprendimientos</p>
    
    {{--  @if(count($errors)>0)
 
@@ -122,7 +123,7 @@
   <a href="/emprendimiento" class="btn btn-secondary">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
-
+</section>
 
 <script type="text/javascript" src="{{asset('js/map.js')}}"></script>
 @endsection

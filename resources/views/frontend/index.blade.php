@@ -380,6 +380,7 @@
             </div>
           </div>
         </div>
+      </div>
           <div class="row">
             <!--Emprendimiento 7-->
               <div class="col-md-4 mb-5">
@@ -497,7 +498,7 @@
                 </div>
               </div>
               <div class="col-md-4 mb-5">
-                <div class="card h-100">
+                <div class="card h-100 contenedor">
                   <img class="card-img-top" src="https://placehold.it/300x200" alt="">
                   <div class="card-body">
                     <h4 class="card-title">Card title</h4>
