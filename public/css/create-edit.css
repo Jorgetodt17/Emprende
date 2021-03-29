@@ -1,3 +1,173 @@
-section{
-    background-color: coral;
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #fed136;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #39ad47;
+    --secondary: #8eda98;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #fed136;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --accent: #4fdf0a;
+    --complementary: #282d33;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
 }
+section{
+    background-color: white;
+}
+
+
+.conteiner{
+    background-color:#343a40;
+    border-radius: 20px;
+    color:white;
+    height: 1500px;
+   box-shadow: 3px 3px 35px #adadad;
+   justify-content:center;
+   padding: 60px;
+
+}
+.tamaño{
+    height: 1800px;
+}
+.titulo{
+    font-size: 32px;
+    font-family: var(--font-family-sans-serif);
+    text-align: left;
+    padding-top: 25px;
+}
+.ubicacion{
+    display: none;
+}
+
+
+.input{
+
+    height: 40px;
+    border-radius: 15px;
+  
+
+}
+.input:focus,
+.input.focus {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #4fdf0a;
+    box-shadow: 0 0 0 0.2rem rgba(98, 254, 84, 0.5);
+}
+.input.disabled,
+.input:disabled {
+    color: rgb(0, 0, 0);
+    background-color: #f0f3ef;
+    border-color: #4fdf0a;
+}
+.input:not(:disabled):not(.disabled):active,
+.input:not(:disabled):not(.disabled).active,
+.show > .input.dropdown-toggle {
+    color: rgb(0, 0, 0);
+    background-color: #cdcecc;
+    border-color: #4fdf0a;
+}
+
+.boton{
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    width: 45%;
+
+
+}
+.btn-outline-danger {
+    color: #e3342f;
+    border-color:1PX #e3342f;
+  }
+  
+  .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #e3342f;
+    border-color:1PX #e3342f;
+  }
+  
+  .btn-outline-danger:focus,
+  .btn-outline-danger.focus {
+    box-shadow: 0 0 0 0.2rem rgba(227, 52, 47, 0.5);
+  }
+  
+  .btn-outline-danger.disabled,
+  .btn-outline-danger:disabled {
+    color: #e3342f;
+    background-color: WHITE;
+  }
+  
+  .btn-outline-danger:not(:disabled):not(.disabled):active,
+  .btn-outline-danger:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #e3342f;
+    border-color:1PX #e3342f;
+  }
+  
+  .btn-outline-danger:not(:disabled):not(.disabled):active:focus,
+  .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(227, 52, 47, 0.5);
+  }
+  .btn-outline-success {
+    color: #4fdf0a;
+    border-color: #4fdf0a;
+  }
+  
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #4fdf0a;
+    border-color:1PX #4fdf0a;
+  }
+  
+  .btn-outline-success:focus,
+  .btn-outline-success.focus {
+    box-shadow: 0 0 0 0.2rem rgba(56, 193, 114, 0.5);
+  }
+  
+  .btn-outline-success.disabled,
+  .btn-outline-success:disabled {
+    color: #38c172;
+    background-color: white;
+  }
+  
+  .btn-outline-success:not(:disabled):not(.disabled):active,
+  .btn-outline-success:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #4fdf0a;
+    border-color: #4fdf0a;
+  }
+  
+  .btn-outline-success:not(:disabled):not(.disabled):active:focus,
+  .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(56, 193, 114, 0.5);
+  }
