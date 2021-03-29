@@ -1,4 +1,4 @@
-<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light shadow-lg mi-navbar">
+<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-white shadow-lg mi-navbar" >
     <div class="container-fluid ">
         <a class="navbar-brand" href="#"><img src="{{asset('assets/images/impulsa4.png')}}" width="75" height="75" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -95,4 +95,4 @@
   </div>
 
    </div>
-  </nav>
+</nav>

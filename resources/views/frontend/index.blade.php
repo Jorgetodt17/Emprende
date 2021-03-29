@@ -10,17 +10,17 @@
 
                 <section>
 
-                    <div class="container" id="emprende">
+                    <div class="container-fluid " id="emprende">
                         <div class="row justify-content-center">
                             <div class="row justify-content-center">
                                 <div class="col-xl-7 col-lg-8 col-md-10">
                                     <div class="section-tittle mb-60 text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                                        <p class="mis-titulos"> Emprendimientos</p>
+                                        <h1 class="emprende"> EMPRENDIMIENTOS</h1>
                                     </div>
                                 </div>
                             </div>
                         </div>                                                                                                                                                                                                               
-                      
+                    <div>
 
             
       <section>
