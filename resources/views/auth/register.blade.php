@@ -3,13 +3,14 @@
 @section('content')
 
 
-<section style="padding-top: 100px">
+<section style="padding-top: 120px">
+
 <div class="container">
     
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Registrar nuevo usuario') }}</div>
+                <div class="card text-white bg-dark card-header ">{{ __('Registrar nuevo usuario') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -62,6 +63,18 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6 offset-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember">
+
+                                    <label class="form-check-label" for="remember">
+                                        {{ __('He leído y acepto los términos y condiciones') }}
+                                    </label>
+                                </div>
                             </div>
                         </div>
 

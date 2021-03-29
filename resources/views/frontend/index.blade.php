@@ -26,8 +26,9 @@
       <section>
         <div class="container">
             <div class="row">
+            
             <!--Emprendimiento 1-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100 contenedor">
                 <div ><img class="img-fluid  anuncios" src="assets/images/gallery/arrival9.png" alt="..." ></a></div>
                   <div class="card-body">
@@ -87,8 +88,9 @@
                   </div>
                 </div>
               </div>
+
           <!--Emprendimiento 2-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100 contenedor">
                 <div ><img class="img-fluid anuncios" src="assets/images/gallery/arrival10.png" alt="..."></a></div>
                   <div class="card-body">
@@ -145,8 +147,9 @@
                   </div>
                 </div>
               </div>
+
             <!--Emprendimiento 3-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival11.png" alt="..."></div>
                   <div class="card-body">
@@ -207,8 +210,9 @@
 
             </div>
             <div class="row">
+
               <!--Emprendimiento 4-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival12.png" alt="..."></div>
                   <div class="card-body">
@@ -264,8 +268,9 @@
                   </div>
                 </div>
               </div>
+
               <!--Emprendimiento 5-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100  contenedor">
                 <div ><img class="img-fluid anuncios" src="assets/images/gallery/arrival13.png" alt="..."></div>
                   <div class="card-body">
@@ -323,8 +328,9 @@
                 </div>
               </div>
               <div class="col-md-4 mb-5">
+
                 <!--Empredimiento 6-->
-                <div class="card h-100 contenedor">
+                <div class="card h-100 contenedor text-center">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival14.png" alt="..."></a></div>
                   <div class="card-body">
                     <h4 class="card-title">Siempre a mediass</h4>
@@ -380,9 +386,11 @@
             </div>
           </div>
         </div>
+        </div>
           <div class="row">
+          
             <!--Emprendimiento 7-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival15.png" alt="..."></a></div>
                   <div class="card-body">
@@ -438,8 +446,9 @@
                 </div>
               </div>
             </div>
+
             <!--Emprendimiento 8-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100 contenedor">
                 <div><img class="img-fluid anuncios" src="assets/images/gallery/arrival16.png" alt="..."></a></div>
                   <div class="card-body">
@@ -496,8 +505,9 @@
                   </div>
                 </div>
               </div>
+
               <!--Emprendimiento 9-->
-              <div class="col-md-4 mb-5">
+              <div class="col-md-4 mb-5 text-center">
                 <div class="card h-100  contenedor">
                 <div ><img class="img-fluid anuncios" src="assets/images/gallery/arrival18.png" alt="..."></div>
                   <div class="card-body">
