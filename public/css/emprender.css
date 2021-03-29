@@ -157,3 +157,6 @@ fieldset:disabled a.btn {
     text-align: center;
     justify-content: center;
 }
+.mi-footer a {
+    width: 40px;
+}
