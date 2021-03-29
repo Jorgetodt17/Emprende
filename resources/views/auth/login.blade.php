@@ -91,11 +91,10 @@
                                             <div >
                                                 <form method="POST" action="{{ route('login') }}">
                                                     @csrf
-
+                                                    <label for="email" class="offset-1 col-md-9" >{{ __('Email') }}</label>
                                                     <div class="form-label-group row">
                                                
-                                                        <label for="email" class="offset-1 col-md-9" >{{ __('Email') }}</label>
-
+                                                       
                                                         <div class="offset-1 col-md-9 ">
                                                             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
@@ -106,10 +105,9 @@
                                                             @enderror
                                                         </div>
                                                     </div>
-
+                                                    <label for="password" class="offset-1 col-md-9" >{{ __('Contraseña') }}</label>
                                                     <div class="form-label-group row">
                                                  
-                                                        <label for="password" class="offset-1 col-md-9" >{{ __('Contraseña') }}</label>
 
                                                         <div class="offset-1 col-md-9">
                                                             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
