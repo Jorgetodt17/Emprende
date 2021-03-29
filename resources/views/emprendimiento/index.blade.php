@@ -8,90 +8,96 @@
 
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css"/>
     <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css"/>
-    
+    <link href= "{{ asset('css\emprendimiento.css') }}" rel="stylesheet" />
 
 
 </head>
 <section>
-<p class="mis-titulos">Mis emprendimientos</p>
-  <a href="emprendimiento/create" class="btn btn-secondary">Crear</a>
-  </br>
-  </br>
-  @if(Session::has('Mensaje'))
+  <div class="container-fluid">
+        <p class="mis-titulos">Mis emprendimientos</p>
+          <a href="emprendimiento/create" class="btn boton btn-outline-success text-center justify-content-center">  <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-file-plus" viewBox="0 0 16 16">
+        <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z"/>
+        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+      </svg> Crear</a>
+          </br>
+          </br>
+          @if(Session::has('Mensaje'))
 
-<div class="alert alert-success alert-dismissable" role="alert">
-<button type="button" class="close" data-dismiss="alert">&times;</button>
-{{ Session::get('Mensaje') }}
-</div>
-
-
-@endif
-
-
-  <p></p>
-    <div class="">
-        <div class="row justify-content-center" style="overflow:hidden;">
-          <div class = "col">
-                  <table id="emprendimiento" class="table table-striped table-bordered shadow-lg mt-4">
-                    <thead class="bg-secondary text-white" >
-                      <tr>
-                       
-                        <th scope="col">Nombre</th>
-                        {{--  <th scope="col">Descripción</th>  --}}
-                       
-                        <th scope="col">Dirección</th>
-                        <th scope="col">Sitio Web</th>
-                        <th scope="col">Instagram</th>
-                        <th scope="col">Facebook</th>
-                        <th scope="col">Teléfono</th>
-                        <th scope="col">Logo</th>
-                        
-                        <th scope="col">Acciones</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      @foreach ($emprendimientos as $emprendimiento)
-                      <tr>
-                         
-                          <td>{{$emprendimiento->nombre}}</td>
-                          {{--  <td>{{$emprendimiento->descripcion}}</td>  --}}
-                         
-                          <td>{{$emprendimiento->direccion}}</td>
-                          <td>{{$emprendimiento->sitio_web}}</td>
-                          <td>{{$emprendimiento->instagram}}</td>
-                          <td>{{$emprendimiento->facebook}}</td>
-                          <td>{{$emprendimiento->nro_telefono}}</td>
-                          <td><img src="{{ asset('storage').'/'. $emprendimiento->logo}}" alt="" width="200">
-                          </td>
-                         
-                          <td>
-                          <a class="btn btn-secondary" href="{{ url('/emprendimiento/'.$emprendimiento->id. '/edit' ) }}">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                            <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-                            </svg>
-                            </a>
-                            
-                            <form method="POST" action= "{{ url('/emprendimiento/'.$emprendimiento->id) }}" style="display:inline">
-                            {{csrf_field ()}}
-                            {{ method_field('DELETE') }}
-                            <button class="btn btn-danger" type="submit" onclick="return confirm('¿Desea borrar?');"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
-                            <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
-                            </svg></button>
-                          </form>
-                          </td>
-                      </tr>
-                      
-                      @endforeach
+        <div class="alert alert-success alert-dismissable" role="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {{ Session::get('Mensaje') }}
+        </div>
 
 
-                    </tbody>
-                  </table>
-                  </div>
-               </div>
-            </div>
+        @endif
 
 
-      </section>
+          
+    
+                <div class="row  fondo justify-content-center">
+                  <div class = "col">
+                    
+                          <table id="emprendimiento" class="table table-striped table-bordered  mt-4">
+                            <thead class="bg-primary text-white" >
+                              <tr class="titulos">
+                                
+                              
+                                <th scope="col">Nombre</th>
+                                {{--  <th scope="col">Descripción</th>  --}}
+                              
+                                <th scope="col">Dirección</th>
+                                <th scope="col">Sitio Web</th>
+                                <th scope="col">Instagram</th>
+                                <th scope="col">Facebook</th>
+                                <th scope="col">Teléfono</th>
+                                <th scope="col">Logo</th>
+                                
+                                <th scope="col">Acciones</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              @foreach ($emprendimientos as $emprendimiento)
+                              <tr>
+                                
+                                  <td>{{$emprendimiento->nombre}}</td>
+                                  {{--  <td>{{$emprendimiento->descripcion}}</td>  --}}
+                                
+                                  <td>{{$emprendimiento->direccion}}</td>
+                                  <td>{{$emprendimiento->sitio_web}}</td>
+                                  <td>{{$emprendimiento->instagram}}</td>
+                                  <td>{{$emprendimiento->facebook}}</td>
+                                  <td>{{$emprendimiento->nro_telefono}}</td>
+                                  <td><img src="{{ asset('storage').'/'. $emprendimiento->logo}}" alt="" width="200">
+                                  </td>
+                                
+                                  <td>
+                                  <a class="btn  btn-outline-success" href="{{ url('/emprendimiento/'.$emprendimiento->id. '/edit' ) }}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                                    </svg>
+                                    </a>
+                                    
+                                    <form method="POST" action= "{{ url('/emprendimiento/'.$emprendimiento->id) }}" style="display:inline">
+                                    {{csrf_field ()}}
+                                    {{ method_field('DELETE') }}
+                                    <button class="btn  btn-outline-danger" type="submit" onclick="return confirm('¿Desea borrar?');"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                                    </svg></button>
+                                  </form>
+                                  </td>
+                              </tr>
+                              
+                              @endforeach
+
+
+                            </tbody>
+                          </table>
+                          </div>
+                      </div>
+                    </div>
+
+                </div>
+    </section>
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
