@@ -554,7 +554,6 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-5">
       </section>
 
 

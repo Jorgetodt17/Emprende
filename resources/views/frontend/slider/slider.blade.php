@@ -15,14 +15,14 @@
       <div class="carousel-item">
         <img src="assets/images/gallery/homeoffice.jpg" class="d-block w-100"   alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Promové desde tu casa.</h5>
+          <h5>Promueve desde tu casa.</h5>
           <p></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="assets/images/gallery/caballos.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Los campos misioneros.</h5>
+          <h5>Crece junto a tu negocio.</h5>
           <p></p>
         </div>
       </div>

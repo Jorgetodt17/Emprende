@@ -89,7 +89,7 @@ body {
   text-align: center;
   color: #fff;
   background-image: url("../assets/images/agro.jpg");
-  height: 650px;
+  height: 700px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -127,6 +127,16 @@ body {
   width: 160px;
   border: 10px solid #282D33 ;
 }
+.santi{
+  background-image: url("../assets/images/santi.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  width: 160px;
+  border: 10px solid #282D33 ;
+}
 .jorge{
   background-image: url("../assets/images/jorge.jpeg");
   background-repeat: no-repeat;
@@ -148,7 +158,11 @@ body {
   position:relative;
   left: 65px;
 }
-
+.texto{
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+}
 .name{
   font-size:25px ;
   justify-content:center;
@@ -192,7 +206,7 @@ body {
 
 }
 .xampp{
-  background-image: url("../assets/images/xampp_logo.jpg");
+  background-image: url("../assets/images/logo_trello.png");
   
 }
 .php{
